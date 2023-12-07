@@ -11,28 +11,29 @@
         <table>
             <div class="a">
                 <tr>
-                    <td><img src="aceh.jpg" alt="" height=250px></td>
-                    <td><img src="geprek.jpg" alt=""height=250px></td>
-                    <td><img src="rendang.jpg" alt=""height=250px></td>
+                    <td><img src="./img/aceh.jpg" alt="" height=250px></td>
+                    <td><img src="./img/geprek.jpg" alt=""height=250px></td>
+                    <td><img src="./img/rendang.jpg" alt=""height=250px></td>
                 </tr>
 
-                <tr>
-                    <td>
-                        <h4>Indomie Rasa Aceh</h4>
-                        <input type="checkbox" name="c1" value="aceh">
-                        <label for="">Rp. 15.000</label>
-                    </td>
-                    <td>
-                        <h4>Indomie Rasa Ayam Geprek</h4>
-                        <input type="checkbox" name="c2" value="geprek">
-                        <label for="">Rp. 10.000</label>
-                    </td>
-                    <td>
-                        <h4>Indomie Rasa Rendang</h4>
-                        <input type="checkbox" name="c3" value="rendang">
-                        <label for="">Rp. 8.000</label>
-                    </td>
-                </tr>
+                
+            <tr>
+                <td>
+                    <h4>Indomie Rasa Aceh</h4>
+                    <input type="radio" id="c1" value="aceh" name="mie">
+                    <label for="c1">Rp. 15.000</label>
+                </td>
+                <td>
+                    <h4>Indomie Rasa Ayam Geprek</h4>
+                    <input type="radio" id="c2" value="geprek" name="mie">
+                    <label for="c2">Rp. 10.000</label>
+                </td>
+                <td>
+                    <h4>Indomie Rasa Rendang</h4>
+                    <input type="radio" id="c3" value="rendang" name="mie">
+                    <label for="c3">Rp. 12.000</label>
+                </td>
+            </tr>
             </div>
 
         </table>
